@@ -52,7 +52,7 @@ async function init() {
   }
 
   // Mostrar imágenes de día o de noche según la hora
-  if (hours >= 12 && hours < 16) {
+  if (hours >= 10 && hours < 16) {
     content6.style.display = "block";
     document.getElementById("img-province-nublado").src = "img/" + timedia + "/nublado.jpg";
     document.getElementById("img-province-soleado").src = "img/" + timedia + "/Soleado.jpg";
